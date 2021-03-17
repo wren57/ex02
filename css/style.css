@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearFixed:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('//at.alicdn.com/t/font_2418407_oikvyxtiws.eot');
+    src: url('//at.alicdn.com/t/font_2418407_oikvyxtiws.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_2418407_oikvyxtiws.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_2418407_oikvyxtiws.woff') format('woff'),
+        url('//at.alicdn.com/t/font_2418407_oikvyxtiws.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_2418407_oikvyxtiws.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 24px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    background-color: #ffe300;
+}
+
+.content {
+    height: 40px;
+}
+
+.main .content div {
+    height: 100%;
+    line-height: 40px;
+}
+
+.main .content div:hover {
+    background-color: #282828;
+}
+
+.main .content div:hover a {
+    color: #ffe300;
+}
+
+.main .content div:hover .iconfont {
+    color: #ffe300;
+}
+
+.main .content .home {
+    background-color: #282828;
+}
+
+.home .iconfont {
+    color: #ffe300;
+}
+
+.main .content div img {
+    width: 30px;
+    height: 30px;
+}
+
+.main .content div a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main .content div.home a {
+    color: #ffe300;
+}
+
+.main .content div.home a img {
+    color: #ffe300;
+}
+
+.section .line1 {
+    height: 25px;
+    line-height: 25px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.section .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffe300;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.bk {
+    height: 0;
+    width: 100%;
+    padding-bottom: 25%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+
+.book img {
+    width: 100%;
+}
+
+@media (min-width:530px) {
+    .main .content div {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width:530px) {
+    .main .content div {
+        padding: 0 10px;
+    }
+    .title{
+        margin-left:20px;
+    }
+}
+
+@media (max-width:992px) {
+    .bk {
+        padding-bottom: 33.3%;
+    }
+}
+
+@media (min-width:530px) {
+    .title{
+        margin-left:40px;
+    }
+}
+
+@media (min-width:992px) {
+    .title{
+        margin-left:100px;
+    }
+}
